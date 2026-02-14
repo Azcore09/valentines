@@ -1,0 +1,65 @@
+.header {
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(255, 12, 227, 0.85);
+    margin-top: 5%;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(255, 12, 227, 0.85);
+    margin-top: 5%;
+}
+
+.border {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin: 3rem auto;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    background-color:white;
+    box-shadow: 0 0 20px rgba(255, 12, 227, 0.85);
+    display: flexbox;
+    min-width: 35%;
+    max-width: 35%;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+#pass {
+     height: 3rem;
+     width: 85%;
+     border-color: rgb(255, 47, 200);
+}
+
+.button1 {
+    background-color: rgb(255, 47, 200);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#name #pass {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 1.2rem;
+}
+
+body {
+    background-image: url("brheart.gif");
+}
+
+.button1{
+    transition: transform 0.2s ease;
+}
+
+.button1:hover {
+    transform: scale(1.05);
+}

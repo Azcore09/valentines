@@ -1,0 +1,28 @@
+.border {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin: 3rem auto;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    background-color:white;
+    box-shadow: 0 0 20px rgba(255, 12, 227, 0.85);
+    display: flexbox;
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.button1 {
+    background-color: rgb(255, 47, 200);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url("brheart.gif");
+}
